@@ -1,0 +1,67 @@
+{
+  "name": "@ngx-universal/translate-loader",
+  "version": "0.4.0-beta.1",
+  "description": "Loader for @ngx-translate/core that provides translations to browser/server platforms",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngx-universal/translate-loader.git"
+  },
+  "keywords": [
+    "plugin",
+    "loader",
+    "platform-browser",
+    "platform-server",
+    "cache",
+    "translatemodule",
+    "translate",
+    "universal",
+    "angular"
+  ],
+  "author": {
+    "name": "Burak Tasci",
+    "email": "me@fulls1z3.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngx-universal/translate-loader/issues"
+  },
+  "homepage": "https://github.com/ngx-universal/translate-loader#readme",
+  "scripts": {
+    "test": "karma start"
+  },
+  "main": "bundles/translate-loader.umd.min.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "devDependencies": {
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/compiler-cli": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.4.2",
+    "zone.js": "^0.8.16",
+    "@ngx-translate/core": "~6.0.1",
+    "@ngx-cache/core": "^0.4.0-beta.2",
+    "@types/node": "^8.0.19",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-load-plugins": "^1.5.0",
+    "rimraf": "^2.6.1",
+    "gulp-exec": "^2.1.3",
+    "gulp-tslint": "^8.1.1",
+    "webpack": "^3.4.1",
+    "tslint-loader": "^3.5.3",
+    "awesome-typescript-loader": "^3.2.2",
+    "codelyzer": "^3.1.2",
+    "tslint": "~5.5.0",
+    "angular-tslint-rules": "^1.0.3",
+    "typescript": "~2.3.4"
+  },
+  "peerDependencies": {
+    "@angular/common": "^4.0.0",
+    "rxjs": "^5.0.1",
+    "@ngx-translate/core": "^6.0.1"
+  }
+}
