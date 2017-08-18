@@ -15,17 +15,9 @@
       "node_modules/@types"
     ]
   },
-  "files": [
-    "index.ts",
-    "src/universal.translate-loader.ts"
-  ],
   "exclude": [
-    "node_modules"
+    "./node_modules"
   ],
-  "angularCompilerOptions": {
-    "strictMetadataEmit": true,
-    "skipTemplateCodegen": true
-  },
   "compileOnSave": false,
   "buildOnSave": false
 }

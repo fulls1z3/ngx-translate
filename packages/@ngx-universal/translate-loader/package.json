@@ -1,0 +1,46 @@
+{
+  "name": "@ngx-universal/translate-loader",
+  "version": "0.4.0-beta.1",
+  "description": "Loader for ngx-translate that provides translations to browser/server platforms",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fulls1z3/ngx-translate.git"
+  },
+  "keywords": [
+    "plugin",
+    "loader",
+    "platform-browser",
+    "platform-server",
+    "cache",
+    "translatemodule",
+    "translate",
+    "universal",
+    "angular"
+  ],
+  "author": {
+    "name": "Burak Tasci",
+    "email": "me@fulls1z3.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fulls1z3/ngx-translate/issues"
+  },
+  "homepage": "https://github.com/fulls1z3/ngx-translate/tree/master/packages/@ngx-universal/translate-loader#readme",
+  "main": "./bundles/translate-loader.umd.min.js",
+  "module": "./index.js",
+  "typings": "./index.d.ts",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "~4.3.0",
+    "@types/node": "^8.0.24",
+    "@ngx-translate/core": "~6.0.1",
+    "@ngx-cache/core": "^0.4.0-beta.2"
+  },
+  "peerDependencies": {
+    "@angular/common": "^4.0.0",
+    "rxjs": "^5.0.1",
+    "@ngx-translate/core": "^6.0.1"
+  }
+}

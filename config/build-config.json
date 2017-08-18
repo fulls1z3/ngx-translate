@@ -1,0 +1,8 @@
+{
+  "@ngx-universal": {
+    "translate-loader": {
+      "angularVersion": 4,
+      "runTests": false
+    }
+  }
+}
