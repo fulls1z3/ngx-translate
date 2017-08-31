@@ -19,9 +19,9 @@ export class UniversalTranslateLoader implements TranslateLoader {
   getTranslation(@CacheKey lang: string): Observable<any> {
     return isPlatformServer(this.platformId)
       ? Observable.create((observer: Observer<any>) => {
-      observer.next(JSON.parse(readFileSync(`./${this.prefix}/${lang}${this.suffix}`, 'utf8')));
-      observer.complete();
-    })
+        observer.next(JSON.parse(readFileSync(`./${this.prefix}/${lang}${this.suffix}`, 'utf8')));
+        observer.complete();
+      })
       : this.browserLoader.getTranslation(lang);
   }
 }
