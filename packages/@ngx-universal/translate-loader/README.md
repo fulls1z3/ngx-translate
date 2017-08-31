@@ -2,6 +2,7 @@
 Loader for [ngx-translate] that provides application settings to **browser**/**server** platforms
 
 [![npm version](https://badge.fury.io/js/%40ngx-universal%2Ftranslate-loader.svg)](https://www.npmjs.com/package/@ngx-universal/translate-loader)
+[![Angular Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://angular.io/styleguide)
 
 > Please support this project by simply putting a Github star. Share this library with friends on Twitter and everywhere else you can.
 
