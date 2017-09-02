@@ -20,15 +20,20 @@
     "clean": "gulp clean --color",
     "lint": "gulp tslint --color",
     "make": "gulp make --color",
-    "test": "gulp test --color"
+    "test": "jest --runInBand --colors"
   },
   "devDependencies": {
     "@angular/common": "~4.3.0",
     "@angular/compiler": "~4.3.0",
+    "@angular/compiler-cli": "~4.3.0",
     "@angular/core": "~4.3.0",
     "core-js": "^2.5.0",
     "rxjs": "^5.4.3",
     "zone.js": "^0.8.17",
+    "@ngx-translate/core": "~6.0.1",
+    "@ngx-cache/core": "^0.4.0-beta.2",
+    "@types/node": "^8.0.25",
+    "@types/jest": "^20.0.8",
     "gulp": "gulpjs/gulp#4.0",
     "gulp-load-plugins": "^1.5.0",
     "rimraf": "^2.6.1",
@@ -37,9 +42,28 @@
     "webpack": "^3.5.5",
     "tslint-loader": "^3.5.3",
     "awesome-typescript-loader": "^3.2.3",
+    "jest": "^20.0.4",
+    "jest-preset-angular": "^2.0.5",
     "codelyzer": "^3.1.2",
     "tslint": "~5.7.0",
     "angular-tslint-rules": "^1.0.4",
     "typescript": "~2.3.4"
+  },
+  "jest": {
+    "preset": "jest-preset-angular",
+    "setupTestFrameworkScriptFile": "./config/jest.setup.ts",
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "./tsconfig.json"
+      },
+      "__TRANSFORM_HTML__": true
+    },
+    "cache": false,
+    "noStackTrace": true,
+    "silent": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "packages/@ngx-universal/translate-loader/src/**.ts"
+    ]
   }
 }
