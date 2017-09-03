@@ -1,0 +1,20 @@
+{
+  "@ngx-universal": {
+    "translate-loader": {
+      "angularVersion": 4,
+      "bundle": {
+        "globals": {
+          "@angular/common": "ng.common",
+          "fs": "fs",
+          "rxjs/Observable": "Rx.Observable",
+          "rxjs/Observer": "Rx.Observer",
+          "@ngx-translate/core": "_ngxTranslate_core",
+          "@ngx-cache/core": "_ngxCache_core",
+          "@ngx-cache/core/index": "_ngxCache_core_index"
+        },
+        "external": []
+      },
+      "runTests": false
+    }
+  }
+}
