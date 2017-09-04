@@ -1,6 +1,0 @@
-coverage:
-  status:
-    project:
-      ngx-universal/translate-loader:
-        target: 80%
-        paths: packages/@ngx-universal/translate-loader

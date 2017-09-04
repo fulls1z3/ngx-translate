@@ -1,6 +1,8 @@
 # ngx-translate
 Server platform loaders [ngx-translate]
 
+[![CircleCI](https://circleci.com/gh/fulls1z3/ngx-translate.svg?style=shield)](https://circleci.com/gh/fulls1z3/ngx-translate)
+[![coverage](https://codecov.io/github/fulls1z3/ngx-translate/coverage.svg?branch=master)](https://codecov.io/gh/fulls1z3/ngx-translate)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![Angular Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://angular.io/styleguide)
 
