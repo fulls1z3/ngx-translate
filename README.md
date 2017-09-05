@@ -9,6 +9,10 @@ Server platform loaders [ngx-translate]
 
 > Please support this project by simply putting a Github star. Share this library with friends on Twitter and everywhere else you can.
 
+#### NOTICE
+> This *[4.x.x] branch* is intented to work with `@angular v4.x.x`. If you're developing on a later release of **Angular**
+than `v4.x.x`, then you should probably choose the appropriate version of this library by visiting the *[master] branch*.
+
 ## Packages:
 Name | Description | NPM
 --- | --- | ---
@@ -29,6 +33,8 @@ The MIT License (MIT)
 
 Copyright (c) 2017 [Burak Tasci]
 
+[master]: https://github.com/ngx-translate/core/tree/master
+[4.x.x]: https://github.com/ngx-translate/core/tree/4.x.x
 [ngx-translate]: https://github.com/ngx-translate/core
 [ng-seed/universal]: https://github.com/ng-seed/universal
 [Burak Tasci]: https://github.com/fulls1z3
