@@ -28,7 +28,7 @@
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "flatModuleOutFile": "translate-loader.js",
-    "flatModuleId": "translate-loader",
+    "flatModuleId": "@ngx-universal/translate-loader",
     "genDir": "../../../../.temp/gen-dir/"
   }
 }
