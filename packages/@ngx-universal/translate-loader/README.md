@@ -10,8 +10,8 @@ Loader for [ngx-translate] that provides application settings to **browser**/**s
 > Please support this project by simply putting a Github star. Share this library with friends on Twitter and everywhere else you can.
 
 #### NOTICE
-> This *[4.x.x] branch* is intented to work with `@angular v4.x.x`. If you're developing on a later release of **Angular**
-than `v4.x.x`, then you should probably choose the appropriate version of this library by visiting the *[master] branch*.
+> This *[5.x.x] branch* is intented to work with `@angular v5.x.x`. If you're developing on a later release of **Angular**
+than `v5.x.x`, then you should probably choose the appropriate version of this library by visiting the *[master] branch*.
 
 ## Table of contents:
 - [Prerequisites](#prerequisites)
@@ -27,7 +27,7 @@ than `v4.x.x`, then you should probably choose the appropriate version of this l
 ## <a name="prerequisites"></a> Prerequisites
 This library depends on `Angular v4.0.0`. Older versions contain outdated dependencies, might produce errors.
 
-Also, please ensure that you are using **`Typescript v2.3.4`** or higher.
+Also, please ensure that you are using **`Typescript v2.5.3`** or higher.
 
 ## <a name="getting-started"></a> Getting started
 ### <a name="installation"></a> Installation
@@ -65,12 +65,13 @@ the imports property of **app.module**.
 #### app.module.ts
 ```TypeScript
 ...
+import { HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { UniversalTranslateLoader } from '@ngx-universal/translate-loader';
 ...
 
-export function translateFactory(platformId: any, http: Http): TranslateLoader {
+export function translateFactory(platformId: any, http: HttpClient): TranslateLoader {
   const browserLoader = new TranslateHttpLoader(http);
 
   return new UniversalTranslateLoader(platformId, browserLoader, './public/assets/i18n');
@@ -112,10 +113,10 @@ export class AppModule {
 ## <a name="license"></a> License
 The MIT License (MIT)
 
-Copyright (c) 2017 [Burak Tasci]
+Copyright (c) 2018 [Burak Tasci]
 
 [master]: https://github.com/ngx-translate/core/tree/master
-[4.x.x]: https://github.com/ngx-translate/core/tree/4.x.x
+[5.x.x]: https://github.com/ngx-translate/core/tree/5.x.x
 [ngx-translate]: https://github.com/ngx-translate/core
 [ng-seed/universal]: https://github.com/ng-seed/universal
 [@ngx-translate/http-loader]: https://github.com/ngx-translate/http-loader
