@@ -1,6 +1,6 @@
 {
   "name": "ngx-translate",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "Server platform loaders for ngx-translate",
   "repository": {
     "type": "git",
@@ -37,7 +37,7 @@
     "zone.js": "~0.8.19",
     "request": "~2.83.0",
     "@ngx-translate/core": "~9.0.2",
-    "@ngx-cache/core": "4.0.1",
+    "@ngx-cache/core": "5.0.0",
     "@types/node": "~8.5.7",
     "@types/jest": "~22.0.1",
     "rimraf": "~2.6.2",
