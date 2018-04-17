@@ -11,26 +11,12 @@ Server platform loaders [ngx-translate]
 > Please support this project by simply putting a Github star. Share this library with friends on Twitter and everywhere else you can.
 
 #### NOTICE
-> This *[5.x.x] branch* is intented to work with `@angular v5.x.x`. If you're developing on a later release of **Angular**
-than `v5.x.x`, then you should probably choose the appropriate version of this library by visiting the *[master] branch*.
+Deprecated in favor of **`HttpInterceptor`** use in [ng-seed/universal] project, so this library is no longer maintained.
 
 ## Packages:
 Name | Description | NPM
 --- | --- | ---
-[@ngx-universal/translate-loader](https://github.com/fulls1z3/ngx-translate/tree/master/packages/@ngx-universal/translate-loader) | Loader for [ngx-translate] that provides application settings to **browser**/**server** platforms | [![npm version](https://badge.fury.io/js/%40ngx-universal%2Ftranslate-loader.svg)](https://www.npmjs.com/package/@ngx-universal/translate-loader)
-
-### Examples
-- [ng-seed/universal] is an officially maintained seed project, showcasing common patterns and best practices for **`@ngx-universal/translate-loader`**.
-
-## Contributing
-If you want to file a bug, contribute some code, or improve documentation, please read up on the following contribution guidelines:
-- [Issue guidelines](CONTRIBUTING.md#submit)
-- [Contributing guidelines](CONTRIBUTING.md)
-- [Coding rules](CONTRIBUTING.md#rules)
-- [Change log](CHANGELOG.md)
-
-#### Thanks to
-- [JetBrains], for their support to this open source project with free [WebStorm] licenses.
+[@ngx-universal/translate-loader](https://github.com/fulls1z3/ngx-translate/tree/master/packages/@ngx-universal/translate-loader) | DEPRECATED: use **`HttpInterceptor`** as on [ng-seed/universal] | [![npm version](https://badge.fury.io/js/%40ngx-universal%2Ftranslate-loader.svg)](https://www.npmjs.com/package/@ngx-universal/translate-loader)
 
 ## License
 The MIT License (MIT)
